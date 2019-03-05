@@ -1,5 +1,4 @@
 const TAX_RATE = 0.09;
-const TAX_lol = 0.098;
 const GUITAR_PRICE = 999;
 const AMP_PRICE = 499;
 const SPENDING_THRESHOLD = 3000;
@@ -13,3 +12,5 @@ const calcTax = amount => {
 const inDollars = amount => {};
 
 console.log(calcTax(GUITAR_PRICE));
+
+lol;
