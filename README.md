@@ -1,3 +1,3 @@
 # study.js
 
-[Record of my daily JavsScript study and exercises.](JOURNAL.md)
+[Record of my daily JavsScript study and exercises.](/JOURNAL.md)
