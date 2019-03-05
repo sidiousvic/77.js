@@ -12,5 +12,3 @@ const calcTax = amount => {
 const inDollars = amount => {};
 
 console.log(calcTax(GUITAR_PRICE));
-
-lol;
