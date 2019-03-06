@@ -7,3 +7,13 @@
 ### Exercises
 
 [guitarshop.js](exercises/guitarshop.js)
+
+## Wed 6 Mar 2019
+
+- Learned about Object.create();
+- Read about prototype inheritance.
+- Created a pluck function for bootcamp check in.
+
+### Exercises
+
+[pluck.js](exercises/pluck.js)
