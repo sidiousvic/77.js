@@ -22,7 +22,7 @@
 
 - [Learned about execution context, and how that creates scope and closures.](https://www.youtube.com/watch?v=Nt-qa_LlUH0)
 - Read [Chapter 2: Into JavaScript](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20%26%20going/ch2.md) and [Chapter 3: Into YSKJS](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20%26%20going/ch3.md) from You Don't Know JS: Up & Going.
-- Learned about the rest and spread operators [...]
+- Learned about the rest and spread operators **[...]**
 - Solved a problem illustrating how the rest operator can be used to concatenate/join arrays.
 - Created a function that uses the rest operator to slice the beggining of an array in the same way as **.slice()** does.
 
