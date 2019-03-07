@@ -12,7 +12,7 @@
 
 - Learned about Object.create();
 - Read about prototype inheritance.
-- Created a pluck function for bootcamp check in.
+- Created a pluck function that returns property values from an array.
 
 ### Exercises
 
