@@ -29,4 +29,5 @@
 ### Exercises
 
 [joinusingspreadoperator.js](exercises/joinusingspreadoperator.js)
+
 [restoperatorslice.js](exercises/restoperatorslice.js)
