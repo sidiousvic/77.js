@@ -29,7 +29,7 @@ var z = foo(9);
 
 > **_Engine_**: Oh yeah. Just checking. I'll assign the value of `x` to `y`.
 
-> **_Engine_**: Hmm. Last thing. I got a couple of **RHS** references in the return statement, one for `x`, one for `y`. Ya got 'em?
+> **_Engine_**: Last thing. I got a couple of **RHS** references, one for `x`, the other for `y`. Ya got 'em?
 
 > **_Scope_**: Yeahyeahyeah. Here they are.
 
