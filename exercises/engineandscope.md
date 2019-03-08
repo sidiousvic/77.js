@@ -20,4 +20,4 @@ var z = foo(9);
 - **_Engine_**: Oh yeah. Just checking... now I'm assigning the value of `x` to `y`.
 - **_Engine_**: Hmm. Last thing. I got a couple of RHS references in the return statement, one for `x`, one for `y`. Ya got 'em?
 - **_Scope_**: Yeahyeahyeah. Here they are.
-- **_Engine_**: Wicked!
+  > **_Engine_**: Wicked!
