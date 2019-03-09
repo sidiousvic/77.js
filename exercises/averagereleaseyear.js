@@ -21,11 +21,8 @@ addAlbum(
   "2021"
 );
 addAlbum("X8", ["X8I", "X8II", "X8III", "X8IV"], "2025");
-addAlbum("X8", ["X8I", "X8II", "X8III", "X8IV"], "2025");
-addAlbum("X8", ["X8I", "X8II", "X8III", "X8IV"], "2025");
-addAlbum("X8", ["X8I", "X8II", "X8III", "X8IV"], "2025");
 
-// console.log(ALBUMS);
+console.log(ALBUMS);
 
 // returns all instances of property
 let pluck = (arr, name) => {
@@ -36,6 +33,9 @@ let pluck = (arr, name) => {
   return result;
 };
 
+console.log("---------");
+
+// returns all unique instances of property using [...new Set()]
 const pluckUniques = (arr, property) => {
   let result = [];
   for (let obj in arr) {
@@ -44,9 +44,11 @@ const pluckUniques = (arr, property) => {
   return [...new Set(result)];
 };
 
-//returns the average of all instances of property
+//returns the average of a property
 let averageReleaseYear = arr => {
   let count = 1;
+  // start at one because reduce loops one time
+  //less than the length of the array
   let sum = pluck(arr, "releaseYear").reduce((a, b) => {
     count++;
     return parseInt(a) + parseInt(b);
@@ -54,15 +56,19 @@ let averageReleaseYear = arr => {
   return "The average release year is " + sum / count + " years.";
 };
 
-//returns the average of all unique instances of property
+console.log(pluck(ALBUMS, "releaseYear"));
+console.log(averageReleaseYear(ALBUMS));
+
 let averageUniqueReleaseYear = arr => {
   let count = 1;
+  // start at one because reduce loops one time
+  //less than the length of the array
   let sum = pluckUniques(arr, "releaseYear").reduce((a, b) => {
     count++;
     return parseInt(a) + parseInt(b);
   });
-  return "The average unique release year is " + sum / count + " years.";
+  return "The average release year is " + sum / count + " years.";
 };
 
-console.log(averageReleaseYear(ALBUMS));
+console.log(pluckUniques(ALBUMS, "releaseYear"));
 console.log(averageUniqueReleaseYear(ALBUMS));
