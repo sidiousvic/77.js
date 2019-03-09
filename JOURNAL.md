@@ -50,7 +50,7 @@
 - Created a function to calculate the mean of a property (or unique properties) in an object using the pluck function.
 - Learned how to parse a string property into an integer using `parseInt()`.
 - Reviewed **destructuring assignment**, such as passing object properties as arguments: `let f = ({property1, property2}) => {...}`.
-- Learned about **template literals**, and created a function `makeSmileys()` that and puts an array of emote faces into `(...)` heads using them.
+- Learned about **template literals** `${...}`, and created a function `makeSmileys()` that and puts an array of emote faces into `(...)` heads using them.
 
 ### Exercises
 
