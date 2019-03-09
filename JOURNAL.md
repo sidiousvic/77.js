@@ -49,7 +49,7 @@
 - Updated the pluck.js exercise to include a function that calculates unique instances of properties returning `[...new Set()]`.
 - Created a function to calculate the mean of a property (or unique properties) in an object using the pluck function.
 - Learned how to parse a string property into an integer using `parseInt()`.
-- Reviewed destructuring assignments, such as passing object properties as arguments: `let f = ({property1, property2}) => {...}`.
+- Reviewed **destructuring assignment**, such as passing object properties as arguments: `let f = ({property1, property2}) => {...}`.
 
 ### Exercises
 
