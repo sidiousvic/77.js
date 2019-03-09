@@ -42,3 +42,29 @@
 ### Exercises
 
 - [engineandscope.md](exercises/engineandscope.md)
+
+## Sat 9 Mar 2019
+
+- Read [Chapter 3: Function vs. Block Scope](https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch3.md) of **_You Don't Know JS: Scope and Closures_**.
+- Updated the pluck.js exercise to include a function that calculates unique instances of properties returning `[...new Set()]**`.
+- Created a function to calculate the mean of a property (or unique properties) in an object using the pluck function.
+- Learned how to parse a string property into an integer using `parseInt()`.
+
+### Exercises
+
+- [averagereleaseyear.js](exercises/averagereleaseyear.js)
+- [pluck.js](exercises/pluck.js)
+
+<!--
+## Date
+
+-
+-
+-
+-
+
+[link](url)
+
+### Exercises
+
+- [exercise.js](exercises/path) -->
