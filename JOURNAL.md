@@ -12,7 +12,7 @@
 
 - Learned about Object.create();
 - Read about prototype inheritance.
-- Created a pluck function that returns property values from an array.
+- Wrote a pluck function that returns property values from an array.
 
 ### Exercises
 
@@ -24,7 +24,7 @@
 - Read [Chapter 2: Into JavaScript](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20%26%20going/ch2.md) and [Chapter 3: Into YSKJS](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20%26%20going/ch3.md) of **_You Don't Know JS: Up & Going_**.
 - Learned about the rest and spread operators **[...]**
 - Solved a problem illustrating how the rest operator can be used to concatenate/join arrays.
-- Created a function that uses the rest operator to slice the beggining of an array in the same way as **.slice()** does.
+- Created a program that uses the rest operator to slice the beggining of an array in the same way as **.slice()** does.
 
 ### Exercises
 
@@ -47,7 +47,7 @@
 
 - Read [Chapter 3: Function vs. Block Scope](https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch3.md) of **_You Don't Know JS: Scope and Closures_**.
 - Updated the pluck.js exercise to include a function that calculates unique instances of properties returning `[...new Set()]`.
-- Created a function to calculate the mean of a property (or unique properties) in an object using the pluck function.
+- Created a program to calculate the mean of a property (or unique properties) in an object using the pluck function.
 - Learned how to parse a string property into an integer using `parseInt()`.
 - Reviewed using **destructuring assignment** to object properties as arguments: `let f = ({property1, property2}) => {...}`.
 - Learned about **template literals** `${...}`, and created a function `makeSmileys()` that and puts an array of emote faces into `(...)` heads using them.
@@ -57,6 +57,14 @@
 - [pluck.js](exercises/pluck.js)
 - [averagereleaseyear.js](exercises/averagereleaseyear.js)
 - [makesmileys.js](exercises/makesmileys.js)
+
+## ϟՍ𐊏 10 Պλᚱ 2019
+
+- Սϟꝇ𐊏հ `ՊλՔ()`, ☾ᚱ₹λե₹ծ λ ՔᚱΦհᚱλՊ եիλե եᚱλ𐊏ϟՀꝇե₹ᚱλե₹ϟ λՀՔիλՑ₹եꝇ☾ ϟեᚱꝇ𐊏հϟ ꝇ𐊏եΦ 𐊏₹☾ᚱΦՊλ𐊏եꝇ☾, λ𐊏 Ս𐊏ᚱ₹λծλՑՀ₹ ՔꝇՀ₹ Φƒ ϟիꝇե.
+
+### ₹×₹ᚱ☾ꝇϟ₹ϟ
+
+- [𐊏₹☾ᚱΦՊλ𐊏եꝇ☾.վϟ](exercises/necromantic.js)
 
 <!--
 ## Date
