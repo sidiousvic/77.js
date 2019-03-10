@@ -46,16 +46,15 @@ function Necromantize(str) {
     .map(x => Necromantic[x] || x)
     .join("");
 }
-
-console.log(Necromantize("This is a sentence in Necromantic."));
-console.log(Necromantize("The quick "));
-console.log(Necromantize("ABCDEFGHIJKLMNOPQRSTUVWXYZ"));
-console.log(Necromantize("Vic Sidious is a programmer and guitar player."));
-console.log(Necromantize("Yutaka is very cute."));
 console.log(
   Necromantize(
-    "ՍϞꝆ𐊏Հ  ՊΛՔ()、  ☾ᚱ₹ΛԵ₹Ծ  Λ  ՔᚱΦՀᚱΛՊ  ԵԻΛԵ  ԵᚱΛ𐊏ϞՀꝆԵ₹ᚱΛԵ₹Ϟ  ΛՀՔԻΛՑ₹ԵꝆ☾  ϞԵᚱꝆ𐊏ՀϞ  Ꝇ𐊏ԵΦ  𐊏₹☾ᚱΦՊΛ𐊏ԵꝆ☾、  Λ𐊏  Ս𐊏ᚱ₹ΛԾΛՑՀ₹  ՔꝆՀ₹  ΦƑ  ϞԻꝆԵ."
+    "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 0 1 2 3 4 5 6 7 8 9"
   )
 );
-
-console.log(Necromantize("ϟՍ𐊏 10 Պλᚱ 2019"));
+// λ  Ց  ☾  ծ  ₹  ƒ  հ  ի  ꝇ  վ  Ӄ  Հ  Պ  𐊏  Φ  Ք  ¤  ᚱ  ϟ  ե  Ս  𝘝  ʬ  ×  ˠ  ʑ  ᠐  ۱  ༢  ੩  Վ  ཏ  𝟲  7  Ց  Ձ
+console.log(Necromantize("This is a sentence in Necromantic."));
+// եիꝇϟ  ꝇϟ  λ  ϟ₹𐊏ե₹𐊏☾₹  ꝇ𐊏  𐊏₹☾ᚱΦՊλ𐊏եꝇ☾.
+console.log(Necromantize("Vic Sidious is a programmer and guitar player."));
+// 𝘝ꝇ☾  ϟꝇծꝇΦՍϟ  ꝇϟ  λ  ՔᚱΦհᚱλՊՊ₹ᚱ  λ𐊏ծ  հՍꝇեλᚱ  ՔՀλˠ₹ᚱ.
+console.log(Necromantize("Yutaka is very cute."));
+// ˠՍեλӃλ  ꝇϟ  𝘝₹ᚱˠ  ☾Սե₹.
