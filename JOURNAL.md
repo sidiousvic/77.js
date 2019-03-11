@@ -10,7 +10,7 @@
 
 ## Wed 6 Mar 2019
 
-- Learned about Object.create();
+- Learned about `Object.create()`;
 - Read about prototype inheritance.
 - Wrote a pluck function that returns property values from an array.
 
@@ -22,9 +22,9 @@
 
 - [Learned about execution context, and how that creates scope and closures.](https://www.youtube.com/watch?v=Nt-qa_LlUH0)
 - Read [Chapter 2: Into JavaScript](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20%26%20going/ch2.md) and [Chapter 3: Into YSKJS](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20%26%20going/ch3.md) of **_You Don't Know JS: Up & Going_**.
-- Learned about the rest and spread operators **[...]**
+- Learned about the rest and spread operators `[...]`
 - Solved a problem illustrating how the rest operator can be used to concatenate/join arrays.
-- Created a program that uses the rest operator to slice the beggining of an array in the same way as **.slice()** does.
+- Created a program that uses the rest operator to slice the beggining of an array in the same way as `.slice()` does.
 
 ### Exercises
 
@@ -71,7 +71,7 @@
 - Completed the [Intermediate Algorithm Scripting: Sum All Odd Fibonacci Numbers](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/sum-all-odd-fibonacci-numbers) challenge on **freeCodeCamp**.
 - Learned how to filter odd numbers in an array by using a `.reduce()` function whose current value is multiplied by itself times the remainder of its half, `current * (current % 2)`.
 
-  This will multiply odd values by 1 and even ones by 0, effectively subtracting them from the sum. `arr.reduce((a, b) => {a + b * (b % 2)}, 0);` **remember to set initialValue argument to 0!**
+  This will multiply odd values by 1 and even ones by 0, effectively subtracting them from the sum. `arr.reduce((a, b) => {a + b * (b % 2)}, 0);` (_remember to set initialValue argument to 0!_)
 
 - Ended up using `.filter()` and `.reduce()` separately, for clarity and readability.
 
