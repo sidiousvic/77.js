@@ -21,7 +21,7 @@
 ## Thu 7 Mar 2019
 
 - [Learned about execution context, and how that creates scope and closures.](https://www.youtube.com/watch?v=Nt-qa_LlUH0)
-- Read [Chapter 2: Into JavaScript](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20%26%20going/ch2.md) and [Chapter 3: Into YSKJS](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20%26%20going/ch3.md) of **_You Don't Know JS: Up & Going_**.
+- Read [Chapter 2: Into JavaScript](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20%26%20going/ch2.md) and [Chapter 3: Into YSKJS](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20%26%20going/ch3.md) of _You Don't Know JS: Up & Going_.
 - Learned about the rest and spread operators `[...]`
 - Solved a problem illustrating how the rest operator can be used to concatenate/join arrays.
 - Created a program that uses the rest operator to slice the beggining of an array in the same way as `.slice()` does.
@@ -34,7 +34,7 @@
 
 ## Fri 8 Mar 2019
 
-- Read [Chapter 1: What is Scope?](https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch1.md) and [Chapter 2: Lexical Scope](https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch2.md) of **_You Don't Know JS: Scope and Closures_**.
+- Read [Chapter 1: What is Scope?](https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch1.md) and [Chapter 2: Lexical Scope](https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch2.md) of _You Don't Know JS: Scope and Closures_.
 - Learned about the metaphorical conversation between the JavaScript **engine**, **compiler** and **scope**.
 - Learned about the **_left hand side_** (LHS) and **_right hand side_** (RHS) **_lookups_** that take place during that conversation.
 - Replicated a quiz from the book to recreate the dialogue between the engine and scope.
@@ -45,7 +45,7 @@
 
 ## Sat 9 Mar 2019
 
-- Read [Chapter 3: Function vs. Block Scope](https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch3.md) of **_You Don't Know JS: Scope and Closures_**.
+- Read [Chapter 3: Function vs. Block Scope](https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch3.md) of _You Don't Know JS: Scope and Closures_.
 - Updated the pluck.js exercise to include a function that calculates unique instances of properties returning `[...new Set()]`.
 - Created a program to calculate the mean of a property (or unique properties) in an object using the pluck function.
 - Learned how to parse a string property into an integer using `parseInt()`.
@@ -68,7 +68,7 @@
 
 ## Mon 11 Mar 2019
 
-- Completed the [Intermediate Algorithm Scripting: Sum All Odd Fibonacci Numbers](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/sum-all-odd-fibonacci-numbers) challenge on **freeCodeCamp**.
+- Completed the [Intermediate Algorithm Scripting: Sum All Odd Fibonacci Numbers](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/sum-all-odd-fibonacci-numbers) challenge on freeCodeCamp.
 - Learned how to filter odd numbers in an array by using a `.reduce()` function whose current value is multiplied by itself times the remainder of its half, `current * (current % 2)`.
 
   This will multiply odd values by 1 and even ones by 0, effectively subtracting them from the sum. `arr.reduce((a, b) => {a + b * (b % 2)}, 0);` (_remember to set initialValue argument to 0!_)
