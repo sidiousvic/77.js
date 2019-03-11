@@ -69,8 +69,10 @@
 ## Mon 11 Mar 2019
 
 - Completed the [_Intermediate Algorithm Scripting: Sum All Odd Fibonacci Numbers_](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/sum-all-odd-fibonacci-numbers) challenge on **freeCodeCamp**.
-- Learned how to filter odd numbers in an array by using a `.reduce()` function whose current value is multiplied by itself times the remainder of its half, `current * (current % 2)`.  
+- Learned how to filter odd numbers in an array by using a `.reduce()` function whose current value is multiplied by itself times the remainder of its half, `current * (current % 2)`.
+
   This will multiply odd values by 1 and even ones by 0, effectively subtracting them from the sum. `arr.reduce((a, b) => {a + b * (b % 2)}, 0);` **remember to set initialValue argument to 0!**
+
 - Ended up using `.filter()` and `.reduce()` separately, for clarity and readability.
 
 ### Exercises
