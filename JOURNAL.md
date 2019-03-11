@@ -36,7 +36,7 @@
 
 - Read [Chapter 1: What is Scope?](https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch1.md) and [Chapter 2: Lexical Scope](https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch2.md) of **_You Don't Know JS: Scope and Closures_**.
 - Learned about the metaphorical conversation between the JavaScript **engine**, **compiler** and **scope**.
-- Learned about the **_LHS_** (Left Hand Side) and **_RHS_** (Right Hand Side) **_lookups_** that take place during that conversation.
+- Learned about the **_left hand side_** (LHS) and **_right hand side_** (RHS) **_lookups_** that take place during that conversation.
 - Replicated a quiz from the book to recreate the dialogue between the engine and scope.
 
 ### Exercises
