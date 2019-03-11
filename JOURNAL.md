@@ -66,6 +66,14 @@
 
 - [𐊏₹☾ᚱΦՊλ𐊏եꝇ☾.վϟ](exercises/necromantic.js)
 
+## Mon 11 Mar 2019
+
+- Completed the [_Intermediate Algorithm Scripting: Sum All Odd Fibonacci Numbers_](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/sum-all-odd-fibonacci-numbers) challenge on **freeCodeCamp**.
+
+### Exercises
+
+- [sumoddfibbs.js](exercises/sumoddfibs.js)
+
 <!--
 ## Date
 
