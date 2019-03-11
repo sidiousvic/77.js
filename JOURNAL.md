@@ -10,7 +10,7 @@
 
 ## Wed 6 Mar 2019
 
-- Learned about `Object.create()`;
+- Learned about `Object.create()`
 - Read about prototype inheritance.
 - Wrote a pluck function that returns property values from an array.
 
