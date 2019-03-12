@@ -79,6 +79,22 @@
 
 - [sumoddfibbs.js](exercises/sumoddfibs.js)
 
+## Tue 12 Mar 2019
+
+- Completed [Intermediate Algorithm Scripting: Sum All Primes](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/sum-all-primes)
+- Learned how to code a [primality test](https://en.wikipedia.org/wiki/Primality_test). Given an integer _n_, if any prime numbers _m_ from 2 to √n divide n evenly, n is not prime. Otherwise, it is prime.
+
+```js
+for (let m = 2; m <= Math.sqrt(n); m++) {
+  if (n % m === 0) return false;
+}
+return true;
+```
+
+### Exercises
+
+- [sumallprimes.js](exercises/sumallprimes.js)
+
 <!--
 ## Date
 
