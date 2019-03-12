@@ -68,7 +68,7 @@
 
 ## Mon 11 Mar 2019
 
-- Completed the [Intermediate Algorithm Scripting: Sum All Odd Fibonacci Numbers](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/sum-all-odd-fibonacci-numbers) challenge on freeCodeCamp.
+- Completed the [Intermediate Algorithm Scripting: Sum All Odd Fibonacci Numbers](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/sum-all-odd-fibonacci-numbers) on freeCodeCamp.
 - Learned how to filter odd numbers in an array by using a `.reduce()` function whose current value is multiplied by itself times the remainder of its half, `current * (current % 2)`.
 
   This will multiply odd values by 1 and even ones by 0, effectively subtracting them from the sum. `arr.reduce((a, b) => {a + b * (b % 2)}, 0);` (_remember to set initialValue argument to 0!_)
@@ -81,7 +81,7 @@
 
 ## Tue 12 Mar 2019
 
-- Completed [Intermediate Algorithm Scripting: Sum All Primes](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/sum-all-primes)
+- Completed [Intermediate Algorithm Scripting: Sum All Primes](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/sum-all-primes) on freeCodeCamp.
 - Learned how to code a [primality test](https://en.wikipedia.org/wiki/Primality_test). Given an integer _n_, if any prime numbers _m_ from 2 to √n divide n evenly, n is not prime. Otherwise, it is prime.
 
 ```js
