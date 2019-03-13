@@ -95,6 +95,14 @@ return true;
 
 - [sumallprimes.js](exercises/sumallprimes.js)
 
+## Wed 13 Mar 2019
+
+- Created an updated version of the _Looping a Triangle_ exercise from [Eloquent Javascript, Chapter 2](https://eloquentjavascript.net/02_program_structure.html). Inside a `pyramid` function receiving a `width` parameter, used a `for` loop to log (and `.join()`) an increasingly long array of hashes. This way, we can set the size of the pyramid at the function call.
+
+### Exercises
+
+- [pyramid.js](exercises/pyramid.js)
+
 <!--
 ## Date
 
