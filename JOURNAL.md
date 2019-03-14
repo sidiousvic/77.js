@@ -103,16 +103,12 @@ return true;
 
 - [pyramid.js](exercises/pyramid.js)
 
-<!--
-## Date
+## Thu 14 Mar 2019
 
--
--
--
--
-
-[link](url)
+- Started working on [Intermediate Algorithm Scripting: Smallest Common Multiple](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/smallest-common-multiple/). So far, returned an array of sequential numbers between the two values, regardless of order.
+- Built a small function to study how scope closures work. By nesting functions and reassigning/modifying variables, we can use variables with the same name without them interfering with their homonyms within parents functions.
 
 ### Exercises
 
-- [exercise.js](exercises/path) -->
+- [smallestcommons.js](exercises/smallestcommons.js)
+- [innerouter.js](exercises/innerouter.js)
