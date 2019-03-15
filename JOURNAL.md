@@ -112,3 +112,11 @@ return true;
 
 - [smallestcommons.js](exercises/smallestcommons.js)
 - [innerouter.js](exercises/innerouter.js)
+
+## Fri 15 Mar 2019
+
+- Implemented the [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm) to calculate the **GCD** (greatest common divisor) and the **LCM** (least common multiple) of two values.
+
+### Exercises
+
+- [euclidsalgorithm.js](exercises/euclidsalgorithm.js)

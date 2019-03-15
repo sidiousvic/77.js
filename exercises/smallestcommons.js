@@ -4,7 +4,6 @@ function smallestCommons(arr) {
   for (let x = arr[0]; x <= arr[1]; x++) {
     seq.push(x);
   }
-
   return seq;
 }
 
