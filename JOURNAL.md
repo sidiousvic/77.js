@@ -115,7 +115,15 @@ return true;
 
 ## Fri 15 Mar 2019
 
-- Implemented the [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm) to calculate the **GCD** (greatest common divisor) and the **LCM** (least common multiple) of two values.
+- Implemented the [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm) to calculate the _GCD_ (greatest common divisor) and the _LCM_ (least common multiple) of two values.
+
+### Exercises
+
+- [euclidsalgorithm.js](exercises/euclidsalgorithm.js)
+
+## Sat 16 Mar 2019
+
+- Fighting still with [Intermediate Algorithm Scripting: Smallest Common Multiple](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/smallest-common-multiple/) on freeCodeCamp. Implemented a function that calculates two values' least common multiple, or _LCM_,but still jammed trying to search for the next _LCM_ when the first one does not divide evenly by every numbers in the range between (and including) the two values.
 
 ### Exercises
 
