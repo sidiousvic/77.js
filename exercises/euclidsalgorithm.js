@@ -14,4 +14,4 @@ let gcd = (n, m) => {
 };
 
 console.log(gcd(210, 45));
-console.log(lcm(7854, 4746));
+console.log(lcm(1, 3));
