@@ -1,4 +1,4 @@
-function dropElements(arr, func) {
+function dropIt(arr, func) {
   for (let x in arr) {
     while (func(arr[x]) === false) {
       arr.shift();
@@ -9,7 +9,7 @@ function dropElements(arr, func) {
 }
 
 console.log(
-  dropElements([0, 1, 0, 1], function(n) {
+  dropIt([0, 1, 0, 1], function(n) {
     return n === 1;
   })
 );

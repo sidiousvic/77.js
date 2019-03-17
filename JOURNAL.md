@@ -145,6 +145,6 @@ while (min < max) {
 ### Exercises
 
 - [smallestcommons.js](exercises/smallestcommons.js)
-- [gcd](exercises/gcd.js)
+- [gcd.js](exercises/gcd.js)
 - [lcm.js](exercises/lcm.js)
 - [dropit.js](exercises/dropit.js)
