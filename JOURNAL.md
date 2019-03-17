@@ -115,7 +115,7 @@ return true;
 
 ## Fri 15 Mar 2019
 
-- Implemented the [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm) to calculate the _GCD_ (greatest common divisor) and the _LCM_ (least common multiple) of two values.
+- Implemented the [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm) to calculate the greatest common divisor (GCD) and the least common multiple (LCM) of two values.
 
 ### Exercises
 
