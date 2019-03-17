@@ -123,7 +123,7 @@ return true;
 
 ## Sat 16 Mar 2019
 
-- Fighting still with [Intermediate Algorithm Scripting: Smallest Common Multiple](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/smallest-common-multiple/) on freeCodeCamp. Implemented a function that calculates two values' least common multiple, or _LCM_,but still jammed trying to search for the next _LCM_ when the first one does not divide evenly by every numbers in the range between (and including) the two values.
+- Fighting still with [Intermediate Algorithm Scripting: Smallest Common Multiple](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/smallest-common-multiple/) on freeCodeCamp. Implemented a function that calculates two values' least common multiple (LCM) but still jammed trying to search for the next LCM when the first one does not divide evenly by every numbers in the range between (and including) the two values.
 
 ### Exercises
 
