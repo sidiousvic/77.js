@@ -131,7 +131,7 @@ return true;
 
 ## Sun 17 Mar 2019
 
-- Completed [Intermediate Algorithm Scripting: Smallest Common Multiple](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/smallest-common-multiple/) on freeCodeCamp. Having already transcoded the [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm), calculated the least common multiple of the current and next number in the range between the values entered with a simple while loop.
+- Completed [Intermediate Algorithm Scripting: Smallest Common Multiple](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/smallest-common-multiple/) on freeCodeCamp. Having already transcoded the [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm), calculated the least common multiple of the current and next number in the range between the values entered with a simple `while` loop.
 
 ```js
 while (min < max) {
@@ -140,8 +140,11 @@ while (min < max) {
 }
 ```
 
+- Completed [Intermediate Algorithm Scripting: Drop it](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/drop-it/) on freeCodeCamp in under 5 minutes. Used a `for` loop to iterate and pass each array element to the test function, `shift`ing the array `while` the function returns false—or in other words, until it returns `true`—finally returning the modified array.
+
 ### Exercises
 
 - [smallestcommons.js](exercises/smallestcommons.js)
 - [gcd](exercises/gcd.js)
 - [lcm.js](exercises/lcm.js)
+- [dropit.js](exercises/dropit.js)
