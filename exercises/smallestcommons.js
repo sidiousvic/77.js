@@ -1,10 +1,30 @@
-function smallestCommons(arr) {
-  arr.sort((a, b) => a - b);
-  let seq = [];
-  for (let x = arr[0]; x <= arr[1]; x++) {
-    seq.push(x);
-  }
-  return seq;
-}
+const smallestCommons = arr => {
+  let min = Math.min(...arr),
+    max = Math.max(...arr);
 
-console.log(smallestCommons([5, 9]));
+  let gcd = (n, m) => {
+    if (n > m) [n, m] = [m, n];
+    let r = n % m;
+    while (r > 0) {
+      n = m;
+      m = r;
+      r = n % m;
+    }
+    return m;
+  };
+
+  let lcm = (n, m) => {
+    return (m * n) / gcd(m, n);
+  };
+
+  let LCM = lcm(min, min + 1);
+
+  while (min < max) {
+    min++;
+    LCM = lcm(LCM, min);
+  }
+
+  return LCM;
+};
+
+console.log(smallestCommons([1, 5]));
