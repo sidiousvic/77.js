@@ -128,3 +128,20 @@ return true;
 ### Exercises
 
 - [euclidsalgorithm.js](exercises/euclidsalgorithm.js)
+
+## Sun 17 Mar 2019
+
+- Completed [Intermediate Algorithm Scripting: Smallest Common Multiple](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/smallest-common-multiple/) on freeCodeCamp. Having already transcoded the [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm), calculated the least common multiple of the current and next number in the range between the values entered with a simple while loop.
+
+```js
+while (min < max) {
+  min++;
+  LCM = lcm(LCM, min);
+}
+```
+
+### Exercises
+
+- [smallestcommons.js](exercises/smallestcommons.js)
+- [gcd](exercises/gcd.js)
+- [lcm.js](exercises/lcm.js)
