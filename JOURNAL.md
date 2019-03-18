@@ -148,3 +148,11 @@ while (min < max) {
 - [gcd.js](exercises/gcd.js)
 - [lcm.js](exercises/lcm.js)
 - [dropit.js](exercises/dropit.js)
+
+## Mon 18 Mar 2019
+
+- Built a function `each` that takes an array and a function as arguments, then executes that function for each element in the array (basically, an implementation on `forEach`).
+
+### Exercises
+
+- [each.js](exercises/each.js)
