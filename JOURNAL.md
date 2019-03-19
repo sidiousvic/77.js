@@ -194,8 +194,10 @@ let steamroll = elem => {
 };
 ```
 
-- Using my own each function from yesterday in lieu of `forEach` as practice.
+- Used my own each function from yesterday in lieu of `forEach` as practice.
+- Built functions `binaryzer` and `debinaryzer` that translate between strings of characters and space separated binary code.
 
 ### Exercises
 
-- [steamroll.js](exercises/steamroll.js)
+- [binaryzer.js](exercises/binaryzer.js)
+- [debinaryzer.js](exercise/debinaryzer.js)
