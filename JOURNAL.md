@@ -199,5 +199,6 @@ let steamroll = elem => {
 
 ### Exercises
 
+- [steamroller.js](exercise/steamroller.js)
 - [binaryzer.js](exercises/binaryzer.js)
 - [debinaryzer.js](exercise/debinaryzer.js)
