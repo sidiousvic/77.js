@@ -1,6 +1,3 @@
-let lcm = (n, m) => {
-  return (m * n) / gcd(m, n);
-};
 
 let gcd = (n, m) => {
   if (n > m) [n, m] = [m, n];
@@ -11,6 +8,10 @@ let gcd = (n, m) => {
     r = n % m;
   }
   return m;
+};
+
+let lcm = (n, m) => {
+  return (m * n) / gcd(m, n);
 };
 
 // console.log(gcd(210, 45));

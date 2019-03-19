@@ -152,7 +152,50 @@ while (min < max) {
 ## Mon 18 Mar 2019
 
 - Built a function `each` that takes an array and a function as arguments, then executes that function for each element in the array (basically, an implementation on `forEach`).
+- Remember to `console.log` every step possible in order to be aware at all times of any typos or bugs.
+- Be consistent, don't use both arrow functions and normal function declarations. Use one kind only.
+- The syntactic difference between function _expressions_ and _declarations_ is the following:
+
+**Function expression**
+
+```js
+let sicky = function(args) {
+  //do someting sick
+};
+```
+
+**Function declaration**
+
+```js
+function sicko(args) {
+  //do someting sick
+}
+```
+
+- Function _declarations_ are hoisted, while function _expressions_ are not.
 
 ### Exercises
 
 - [each.js](exercises/each.js)
+
+## Tue 19 Mar 2019
+
+- Built a `steamroller` function that _flattens_ arrays of various nested depths by returning their values in a single new array. It contains a function `steamroll` that uses recursion to return values at the deepest level of a nested array.
+
+```js
+let steamroll = elem => {
+  if (!Array.isArray(elem)) {
+    result.push(elem);
+  } else {
+    for (let x in elem) {
+      steamroll(elem[x]);
+    }
+  }
+};
+```
+
+- Using my own each function from yesterday in lieu of `forEach` as practice.
+
+### Exercises
+
+- [steamroll.js](exercises/steamroll.js)
