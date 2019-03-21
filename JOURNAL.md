@@ -200,7 +200,7 @@ let steamroll = elem => {
 
 - [steamroller.js](exercise/steamroller.js)
 
-## Tue 19 Mar 2019
+## Wed 20 Mar 2019
 
 - Built functions `binaryzer` and `debinaryzer` that translate between strings of characters and space separated binary code.
 
@@ -209,7 +209,7 @@ let steamroll = elem => {
 - [binaryzer.js](exercises/binaryzer.js)
 - [debinaryzer.js](exercise/debinaryzer.js)
 
-## Tue 19 Mar 2019
+## Thu 21 Mar 2019
 
 - Built an implementation of the `reduce()` method in order to understand it better.
 - Reduce takes a callback and an inital value as arguments. If an inital value has been set, the inital value is initalized inside the function as `accumulator`. If not, `accumulator` starts out as `undefined`.
