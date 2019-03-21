@@ -212,7 +212,7 @@ let steamroll = elem => {
 ## Tue 19 Mar 2019
 
 - Built an implementation of the `reduce()` method in order to understand it better.
-- Reduce takes a callback and an inital value as arguments. If an inital value has been set,the inital value is initalized inside the function as `accumulator`. If not, `accumulator` starts out as `undefined`.
+- Reduce takes a callback and an inital value as arguments. If an inital value has been set, the inital value is initalized inside the function as `accumulator`. If not, `accumulator` starts out as `undefined`.
 - We then loop through the array we are executing the function on (referenced as `this` because of _execution context_). If `accumulator` is `undefined`, we assign it the current array value; otherwise, we `call()` the callback function.
 - The callback receives `undefined`, `accumulator`, the current array value, the index of that value, and the array itself.
 - In the end we return `accumulator`.
