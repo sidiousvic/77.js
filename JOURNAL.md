@@ -208,3 +208,29 @@ let steamroll = elem => {
 
 - [binaryzer.js](exercises/binaryzer.js)
 - [debinaryzer.js](exercise/debinaryzer.js)
+
+## Tue 19 Mar 2019
+
+- Built an implementation of the `reduce()` method in order to understand it better.
+- Reduce takes a callback and an inital value as arguments. If an inital value has been set,the inital value is initalized inside the function as `accumulator`. If not, `accumulator` starts out as `undefined`.
+- We then loop through the array we are executing the function on (referenced as `this` because of _execution context_). If `accumulator` is `undefined`, we assign it the current array value; otherwise, we `call()` the callback function.
+- The callback receives `undefined`, `accumulator`, the current array value, the index of that value, and the array itself.
+- In the end we return `accumulator`.
+
+```js
+Array.prototype.reduceX = function(callback, initVal) {
+  let accum = initVal === undefined ? undefined : initVal;
+  for (let x = 0; x < this.length; x++) {
+    if (accum !== undefined) {
+      accum = callback.call(undefined, accum, this[x], x, this);
+    } else {
+      accum = this[x];
+    }
+  }
+  return accum;
+};
+```
+
+### Exercises
+
+- [reducex.js](exercises/reducex.js)
