@@ -234,3 +234,13 @@ Array.prototype.reduceX = function(callback, initVal) {
 ### Exercises
 
 - [reducex.js](exercises/reducex.js)
+
+## Fri 22 Mar 2019
+
+- Completed [Intermediate Algorithm Scripting: Everything Be True](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/everything-be-true) on freeCodeCamp.
+- Built a function receiving a collection of objects and a `pre` property string. The function checks if all `pre` object properties in `collection` are truthy.
+- Used `every()`, which returns either `true` or `false`, to check if every object `obj` possesses a property `pre` by returning `obj[pre]`.
+
+### Exercises
+
+- [everythingbetrue.js](exercises/everythingbetrue.js)
