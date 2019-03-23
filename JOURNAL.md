@@ -202,7 +202,7 @@ let steamroll = elem => {
 
 ## Wed 20 Mar 2019
 
-- Built functions `binaryzer` and `debinaryzer` that translate between strings of characters and space separated binary code.
+- Built functions `binaryzer` and `debinaryzer` that translate between strings of characters and space-separated binary code.
 
 ### Exercises
 
