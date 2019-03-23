@@ -244,3 +244,11 @@ Array.prototype.reduceX = function(callback, initVal) {
 ### Exercises
 
 - [everythingbetrue.js](exercises/everythingbetrue.js)
+
+## Sat 23 Mar 2019
+
+- `IN PROGRESS`
+
+### Exercises
+
+- [.js](exercises/)
