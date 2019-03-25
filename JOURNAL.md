@@ -184,7 +184,7 @@ function sicko(args) {
 
 ## Tue 19 Mar 2019
 
-- Built a `steamroller` function that _flattens_ arrays of various nested depths by returning their values in a single new array. It contains a function `steamroll` that uses recursion to return values at the deepest level of a nested array.
+- Built a `steamroller` function that flattens arrays of various nested depths by returning their values in a single new array. It contains a function `steamroll` that uses recursion to return values at the deepest level of a nested array.
 
 ```js
 let steamroll = elem => {
