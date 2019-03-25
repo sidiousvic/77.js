@@ -263,3 +263,13 @@ From [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Refe
 ### Exercises
 
 - [sumall.js](exercises/sumall.js)
+
+## Sun 24 Mar 2019
+
+- Completed [Intermediate Algorithm Scripting: Arguments Optional](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/arguments-optional) on freeCodeCamp.
+- As long as arguments are of the `number` type, the function either sums two given arguments or returns another function that sums one given argument with a new one.
+- For example, `addTogether(2, 3)` will return `5` as well as `addTogether(2)(3)`.
+
+### Exercises
+
+- [argsoptional.js](exercises/argsoptional.js)
