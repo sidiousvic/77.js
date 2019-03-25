@@ -257,7 +257,7 @@ From [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Refe
 > - If compareFunction(a, b) is greater than 0, sort b to an index lower than a (i.e. b comes first).
 > - compareFunction(a, b) must always return the same value when given a specific pair of elements a and b as its two arguments. If inconsistent results are returned then the sort order is undefined.
 
-- Knowing this we can define a simple `(a, b) => a - b` function that will order items in ascending order.
+- Knowing this we can define a simple `(a, b) => a - b` function that will set items in ascending order.
 - For example, in an array `[10, 5, 99]` first `5` will be subtracted from `10`. Since the result is greater than 0 (5), `5` or `b` is sorted to an index lower than `10`, or `a`. Next next `9` will be subtracted from `10`. The result is less than 0 (-89) and thus `10` is set to an index lower than `99`, which it already is.
 
 ### Exercises
