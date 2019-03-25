@@ -55,7 +55,9 @@
 ### Exercises
 
 [pluck.js](exercises/pluck.js)
+
 [averagereleaseyear.js](exercises/averagereleaseyear.js)
+
 [makesmileys.js](exercises/makesmileys.js)
 
 ## ϞՍ𐊏 ۱᠐ ՊΛᚱ ༢᠐۱Ձ
@@ -111,6 +113,7 @@ return true;
 ### Exercises
 
 [smallestcommons.js](exercises/smallestcommons.js)
+
 [innerouter.js](exercises/innerouter.js)
 
 ## Fri 15 Mar 2019
@@ -145,8 +148,11 @@ while (min < max) {
 ### Exercises
 
 [smallestcommons.js](exercises/smallestcommons.js)
+
 [gcd.js](exercises/gcd.js)
+
 [lcm.js](exercises/lcm.js)
+
 [dropit.js](exercises/dropit.js)
 
 ## Mon 18 Mar 2019
@@ -207,6 +213,7 @@ let steamroll = elem => {
 ### Exercises
 
 [binaryzer.js](exercises/binaryzer.js)
+
 [debinaryzer.js](exercise/debinaryzer.js)
 
 ## Thu 21 Mar 2019
