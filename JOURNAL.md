@@ -41,7 +41,7 @@
 
 ### Exercises
 
-- [engineandscope.md](exercises/engineandscope.md)
+[engineandscope.md](exercises/engineandscope.md)
 
 ## Sat 9 Mar 2019
 
@@ -54,9 +54,9 @@
 
 ### Exercises
 
-- [pluck.js](exercises/pluck.js)
-- [averagereleaseyear.js](exercises/averagereleaseyear.js)
-- [makesmileys.js](exercises/makesmileys.js)
+[pluck.js](exercises/pluck.js)
+[averagereleaseyear.js](exercises/averagereleaseyear.js)
+[makesmileys.js](exercises/makesmileys.js)
 
 ## ϞՍ𐊏 ۱᠐ ՊΛᚱ ༢᠐۱Ձ
 
@@ -64,7 +64,7 @@
 
 ### ₹×₹ᚱ☾ꝇϟ₹ϟ
 
-- [𐊏₹☾ᚱΦՊλ𐊏եꝇ☾.վϟ](exercises/necromantic.js)
+[𐊏₹☾ᚱΦՊλ𐊏եꝇ☾.վϟ](exercises/necromantic.js)
 
 ## Mon 11 Mar 2019
 
@@ -77,7 +77,7 @@
 
 ### Exercises
 
-- [sumoddfibbs.js](exercises/sumoddfibs.js)
+[sumoddfibbs.js](exercises/sumoddfibs.js)
 
 ## Tue 12 Mar 2019
 
@@ -93,7 +93,7 @@ return true;
 
 ### Exercises
 
-- [sumallprimes.js](exercises/sumallprimes.js)
+[sumallprimes.js](exercises/sumallprimes.js)
 
 ## Wed 13 Mar 2019
 
@@ -101,7 +101,7 @@ return true;
 
 ### Exercises
 
-- [pyramid.js](exercises/pyramid.js)
+[pyramid.js](exercises/pyramid.js)
 
 ## Thu 14 Mar 2019
 
@@ -110,8 +110,8 @@ return true;
 
 ### Exercises
 
-- [smallestcommons.js](exercises/smallestcommons.js)
-- [innerouter.js](exercises/innerouter.js)
+[smallestcommons.js](exercises/smallestcommons.js)
+[innerouter.js](exercises/innerouter.js)
 
 ## Fri 15 Mar 2019
 
@@ -119,7 +119,7 @@ return true;
 
 ### Exercises
 
-- [euclidsalgorithm.js](exercises/euclidsalgorithm.js)
+[euclidsalgorithm.js](exercises/euclidsalgorithm.js)
 
 ## Sat 16 Mar 2019
 
@@ -127,7 +127,7 @@ return true;
 
 ### Exercises
 
-- [euclidsalgorithm.js](exercises/euclidsalgorithm.js)
+[euclidsalgorithm.js](exercises/euclidsalgorithm.js)
 
 ## Sun 17 Mar 2019
 
@@ -144,10 +144,10 @@ while (min < max) {
 
 ### Exercises
 
-- [smallestcommons.js](exercises/smallestcommons.js)
-- [gcd.js](exercises/gcd.js)
-- [lcm.js](exercises/lcm.js)
-- [dropit.js](exercises/dropit.js)
+[smallestcommons.js](exercises/smallestcommons.js)
+[gcd.js](exercises/gcd.js)
+[lcm.js](exercises/lcm.js)
+[dropit.js](exercises/dropit.js)
 
 ## Mon 18 Mar 2019
 
@@ -176,7 +176,7 @@ function sicko(args) {
 
 ### Exercises
 
-- [each.js](exercises/each.js)
+[each.js](exercises/each.js)
 
 ## Tue 19 Mar 2019
 
@@ -198,7 +198,7 @@ let steamroll = elem => {
 
 ### Exercises
 
-- [steamroller.js](exercise/steamroller.js)
+[steamroller.js](exercise/steamroller.js)
 
 ## Wed 20 Mar 2019
 
@@ -206,8 +206,8 @@ let steamroll = elem => {
 
 ### Exercises
 
-- [binaryzer.js](exercises/binaryzer.js)
-- [debinaryzer.js](exercise/debinaryzer.js)
+[binaryzer.js](exercises/binaryzer.js)
+[debinaryzer.js](exercise/debinaryzer.js)
 
 ## Thu 21 Mar 2019
 
@@ -233,7 +233,7 @@ Array.prototype.reduceX = function(callback, initVal) {
 
 ### Exercises
 
-- [reducex.js](exercises/reducex.js)
+[reducex.js](exercises/reducex.js)
 
 ## Fri 22 Mar 2019
 
@@ -243,7 +243,7 @@ Array.prototype.reduceX = function(callback, initVal) {
 
 ### Exercises
 
-- [everythingbetrue.js](exercises/everythingbetrue.js)
+[everythingbetrue.js](exercises/everythingbetrue.js)
 
 ## Sat 23 Mar 2019
 
@@ -262,7 +262,7 @@ From [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Refe
 
 ### Exercises
 
-- [sumall.js](exercises/sumall.js)
+[sumall.js](exercises/sumall.js)
 
 ## Sun 24 Mar 2019
 
@@ -273,4 +273,4 @@ From [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Refe
 
 ### Exercises
 
-- [argsoptional.js](exercises/argsoptional.js)
+[argsoptional.js](exercises/argsoptional.js)
