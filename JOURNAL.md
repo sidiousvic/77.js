@@ -279,3 +279,12 @@ From [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Refe
 ### Exercises
 
 [argsoptional.js](exercises/argsoptional.js)
+
+## Wed 27 Mar 2019
+
+- Completed [Intermediate Algorithm Scripting: Make A Person](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/make-a-person) on freeCodeCamp.
+- Learned more about constructors, and how to create and modify objects using get and set methods.
+
+### Exercises
+
+[makeaperson.js](exercises/makeaperson.js)
