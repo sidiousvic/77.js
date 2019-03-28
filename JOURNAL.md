@@ -317,7 +317,10 @@ let T = Math.round(
 - Built a function that receives a string and verifies if the string is a [palindrome](https://en.wikipedia.org/wiki/Palindrome).
 - The function utilizes a regex expression to ignore case and non-alphanumeric characters (such as spaces). Using `match()`, `join()`, `reverse()` and `toLowerCase()` to check for strict equality between two processed (one reversed) versions of the string.
 - We can use strict equality `===` to compare two strings since it does not permit type coercion.
+- Completed [JavaScript Algorithms and Data Structures Projects: Roman Numeral Converter](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/roman-numeral-converter) in freeCodeCamp.
+- Built a function that receives a number, and construct a new array of each digit's decimal value in the number (ex. 666 => 600, 60, 6). It then mutates each element in the array into its roman numeral equivalent using `map()` and stitches it together with `join()`.
 
 ### Exercises
 
 [palindrome.js](exercises/palindrome.js)
+[romanizer.js](exercises/romanizer.js)
