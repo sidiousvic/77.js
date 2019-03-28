@@ -284,7 +284,28 @@ From [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Refe
 
 - Completed [Intermediate Algorithm Scripting: Make A Person](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/make-a-person) on freeCodeCamp.
 - Learned more about constructors, and how to create and modify objects using get and set methods.
+- Completed [Intermediate Algorithm Scripting: Map the Debris](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/map-the-debris) on freeCodeCamp.
+- Built a function that takes an object and pushes an `orbitalPeriod` key into it by transcoding Kepler's orbital period formula:
+
+> According to [Kepler's Third Law](https://en.wikipedia.org/wiki/Kepler%27s_laws_of_planetary_motion), the _orbital period_ _T_ (in seconds) of two point masses orbiting each other in a circular or elliptic orbit is:
+> T = 2π√a³/μ
+> where:
+>
+> - a is the orbit's semi-major axis
+> - μ = GM is the standard gravitational parameter
+> - G is the gravitational constant,
+> - M is the mass of the more massive body.
+> - For all ellipses with a given semi-major axis the orbital period is the same, regardless of eccentricity.
+
+- After transcoding, ended up with:
+
+```js
+let T = Math.round(
+  Math.PI * 2 * Math.sqrt(Math.pow(earthRadius + obj.avgAlt, 3) / GM)
+);
+```
 
 ### Exercises
 
 [makeaperson.js](exercises/makeaperson.js)
+[orbitalperiod.js](exercises/orbitalperiod.js)
