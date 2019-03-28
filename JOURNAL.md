@@ -285,7 +285,7 @@ From [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Refe
 - Completed [Intermediate Algorithm Scripting: Make A Person](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/make-a-person) on freeCodeCamp.
 - Learned more about constructors, and how to create and modify objects using get and set methods.
 - Completed [Intermediate Algorithm Scripting: Map the Debris](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/map-the-debris) on freeCodeCamp.
-- Built a function that takes an object and pushes an `orbitalPeriod` key into it by transcoding Kepler's orbital period formula:
+- Built a function that takes an object with an `avgAlt` key and returns it after transforming `avgAlt` into `orbitalPeriod` using Kepler's orbital period formula:
 
 > According to [Kepler's Third Law](https://en.wikipedia.org/wiki/Kepler%27s_laws_of_planetary_motion), the **orbital period** _T_ (in seconds) of two point masses orbiting each other in a circular or elliptic orbit is:
 > T = 2π√a³/μ
@@ -308,4 +308,5 @@ let T = Math.round(
 ### Exercises
 
 [makeaperson.js](exercises/makeaperson.js)
+
 [orbitalperiod.js](exercises/orbitalperiod.js)
