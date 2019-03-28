@@ -319,9 +319,19 @@ let T = Math.round(
 - We can use strict equality `===` to compare two strings since it does not permit type coercion.
 - Completed [JavaScript Algorithms and Data Structures Projects: Roman Numeral Converter](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/roman-numeral-converter) in freeCodeCamp.
 - Built a function that receives a number, and construct a new array of each digit's decimal value in the number (ex. 666 => 600, 60, 6). It then mutates each element in the array into its roman numeral equivalent using `map()` and stitches it together with `join()`.
+- Completed [JavaScript Algorithms and Data Structures Projects: Caesars Cipher](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/caesars-cipher) in freeCodeCamp.
+- Built a function that uses a regex to `replace()` alphanumeric characters in a string with the result of passing such characters through a [ROT13](https://en.wikipedia.org/wiki/ROT13) ciphering function.
+- The ciphering function iterates each character and gets its Unicode value. We can use the modulo operator `%` to get the remainder of the Unicode value over `26` (the range of possible alphanumeric characters, [0-25]) effectively mapping each value to an index between 0 and 25.
+- Using the number 65 (Unicode value of [A]) as an offset which maps to the number 13, we can get a values's ROT13 equivalent by simply adding the Unicode value and the remainder of itself and 26, using `String.fromCharCode()`:
+
+```js
+str.replace(/[A-Z]/g, x => String.fromCharCode((x.charCodeAt(0) % 26) + 65));
+```
 
 ### Exercises
 
 [palindrome.js](exercises/palindrome.js)
 
 [romanizer.js](exercises/romanizer.js)
+
+[rot13.js](exercises/rot13.js)
