@@ -315,7 +315,7 @@ let T = Math.round(
 
 - Completed [JavaScript Algorithms and Data Structures Projects: Palindrome Checker](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/palindrome-checker) in freeCodeCamp.
 - Built a function that receives a string and verifies if the string is a [palindrome](https://en.wikipedia.org/wiki/Palindrome).
-- The function utilizes a regex expression to ignore case and non-alphanumeric characters (such as spaces). Using `match()`, `join()`, `reverse()` and `toLowerCase` to check for strict equality between two processed (one reversed) versions of the string.
+- The function utilizes a regex expression to ignore case and non-alphanumeric characters (such as spaces). Using `match()`, `join()`, `reverse()` and `toLowerCase()` to check for strict equality between two processed (one reversed) versions of the string.
 - We can use strict equality `===` to compare two strings since it does not permit type coercion.
 
 ### Exercises
