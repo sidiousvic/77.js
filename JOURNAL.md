@@ -320,7 +320,7 @@ let T = Math.round(
 - Completed [JavaScript Algorithms and Data Structures Projects: Roman Numeral Converter](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/roman-numeral-converter) in freeCodeCamp.
 - Built a function that receives a number, and construct a new array of each digit's decimal value in the number (ex. 666 => 600, 60, 6). It then mutates each element in the array into its roman numeral equivalent using `map()` and stitches it together with `join()`.
 - Completed [JavaScript Algorithms and Data Structures Projects: Caesars Cipher](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/caesars-cipher) in freeCodeCamp.
-- Built a function that uses a regex to `replace()` alphanumeric characters in a string with the result of passing such characters through a [ROT13](https://en.wikipedia.org/wiki/ROT13) ciphering function.
+- Built a function that uses a regex to `replace()` alphanumeric characters in a string with the return value of a [ROT13](https://en.wikipedia.org/wiki/ROT13) ciphering function.
 - The ciphering function iterates each character and gets its Unicode value. We can use the modulo operator `%` to get the remainder of the Unicode value over `26` (the range of possible alphanumeric characters, [0-25]) effectively mapping each value to an index between 0 and 25.
 - Using the number 65 (Unicode value of [A]) as an offset which maps to the number 13, we can get a values's ROT13 equivalent by simply adding the Unicode value and the remainder of itself and 26, using `String.fromCharCode()`:
 
@@ -335,3 +335,27 @@ str.replace(/[A-Z]/g, x => String.fromCharCode((x.charCodeAt(0) % 26) + 65));
 [romanizer.js](exercises/romanizer.js)
 
 [rot13.js](exercises/rot13.js)
+
+## Fri 29 Mar 2019
+
+- Completed [Intermediate Algorithm Scripting: Telephone Number Validator](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/telephone-number-validator/) on freeCodeCamp.
+- Used a [regex](https://en.wikipedia.org/wiki/Regular_expression) to validate a telephone number according to US standards.
+- US telephone numbers may have either 10 or 11 digits; if 11, the first should be a `1` (the country code). After that, the first three numbers (the area code) may or may not be enclosed in parentheses, (e.g. `999` or `(999)`) if the main 10-digit number is arranged in a 3-3-4 format, the separators may be spaces `` or hyphens `-`.
+- After some research, stole and used the following expression:
+
+```js
+/^(1\s?)?(\(\d{3}\)|\d{3})[\s\-]?\d{3}[\s\-]?\d{4}$/;
+```
+
+> - `^` marks the beggining of the string.
+> - `(1\s?)?` A `?` mark makes the preceding statement optional. This expects a `1` followed (or not) by a whitespace character `\s`.
+> - `(\(\d{3}\)|\d{3})` A `|` mark means either this or that. Here we expect three digits surrounded by parentheses `(\d{3}\)` or `|` not `\d{3}`.
+> - `[\s\-]?` expects an optional `?` whitespace character `\s`.
+> - `\d{3}` expects any three digits in a row.
+> - Again, `[\s\-]?` expects an optional whitespace character.
+> - Lastly, `\d{4}` expects any 4 digits in a row.
+> - `$` marks the end of the string.
+
+### Exercises
+
+[usphone.js](exercises/usphone.js)
