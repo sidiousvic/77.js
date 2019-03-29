@@ -347,7 +347,7 @@ str.replace(/[A-Z]/g, x => String.fromCharCode((x.charCodeAt(0) % 26) + 65));
 /^(1\s?)?(\(\d{3}\)|\d{3})[\s\-]?\d{3}[\s\-]?\d{4}$/;
 ```
 
-- Where:
+Where:
 
 > - `^` marks the beggining of the string.
 > - `(1\s?)?` A `?` mark makes the preceding statement optional. This expects a `1` followed (or not) by a whitespace character `\s`.
