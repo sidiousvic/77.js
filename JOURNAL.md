@@ -347,17 +347,16 @@ str.replace(/[A-Z]/g, x => String.fromCharCode((x.charCodeAt(0) % 26) + 65));
 /^(1\s?)?(\(\d{3}\)|\d{3})[\s\-]?\d{3}[\s\-]?\d{4}$/;
 ```
 
-- My breakdown:
+- Where:
 
-: `^` marks the beggining of the string.
-
-> - `(1\s?)?` A `?` mark makes the preceding statement optional. This expects a `1` followed (or not) by a whitespace character `\s`.
-> - `(\(\d{3}\)|\d{3})` A `|` mark means either this or that. Here we expect three digits surrounded by parentheses `(\d{3}\)` or `|` not `\d{3}`.
-> - `[\s\-]?` expects an optional `?` whitespace character `\s`.
-> - `\d{3}` expects any three digits in a row.
-> - Again, `[\s\-]?` expects an optional whitespace character.
-> - Lastly, `\d{4}` expects any 4 digits in a row.
-> - `$` marks the end of the string.
+`^` marks the beggining of the string.
+`(1\s?)?` A `?` mark makes the preceding statement optional. This expects a `1` followed (or not) by a whitespace character `\s`.
+`(\(\d{3}\)|\d{3})` A `|` mark means either this or that. Here we expect three digits surrounded by parentheses `(\d{3}\)` or `|` not `\d{3}`.
+`[\s\-]?` expects an optional `?` whitespace character `\s`.
+`\d{3}` expects any three digits in a row.
+Again, `[\s\-]?` expects an optional whitespace character.
+Lastly, `\d{4}` expects any 4 digits in a row.
+`$` marks the end of the string.
 
 ### Exercises
 
