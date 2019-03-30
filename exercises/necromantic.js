@@ -58,4 +58,3 @@ console.log(Necromantize("Vic Sidious is a programmer and guitar player."));
 // 𝘝ꝇ☾  ϟꝇծꝇΦՍϟ  ꝇϟ  λ  ՔᚱΦհᚱλՊՊ₹ᚱ  λ𐊏ծ  հՍꝇեλᚱ  ՔՀλˠ₹ᚱ.
 console.log(Necromantize("Yutaka is very cute."));
 // ˠՍեλӃλ  ꝇϟ  𝘝₹ᚱˠ  ☾Սե₹.
-console.log(Necromantize("Leo esta bien meco."));

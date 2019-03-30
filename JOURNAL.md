@@ -338,7 +338,7 @@ str.replace(/[A-Z]/g, x => String.fromCharCode((x.charCodeAt(0) % 26) + 65));
 
 ## Fri 29 Mar 2019
 
-- Completed [Intermediate Algorithm Scripting: Telephone Number Validator](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/telephone-number-validator/) on freeCodeCamp.
+- Completed [JavaScript Algorithms and Data Structures Projects: Telephone Number Validator](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/telephone-number-validator/) on freeCodeCamp.
 - Used a [regex](https://en.wikipedia.org/wiki/Regular_expression) to validate a telephone number according to US standards.
 - US telephone numbers may have either 10 or 11 digits; if 11, the first should be a `1` (the country code). After that, the first three numbers (the area code) may or may not be enclosed in parentheses, (e.g. `999` or `(999)`) if the main 10-digit number is arranged in a 3-3-4 format, the separators may be spaces `` or hyphens `-`.
 - After some research, stole and used the following expression:
@@ -361,3 +361,13 @@ Where:
 ### Exercises
 
 [usphone.js](exercises/usphone.js)
+
+## Fri 29 Mar 2019
+
+- Began work on [JavaScript Algorithms and Data Structures Projects: Cash Register](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/cash-register/) on freeCodeCamp.
+- Began by flattening a `cid` array containing the dollar value of various cash denomination quantities and reducing it to a total dollar number `reg`.
+- Defined `change` as `price` minus `cash`. Then established conditions based on whether change is more, equal or less than `reg`.
+
+### Exercises
+
+[cashregister.js](exercises/cashregister.js)

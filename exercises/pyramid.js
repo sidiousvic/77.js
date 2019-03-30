@@ -5,4 +5,4 @@ const pyramid = width => {
   }
 };
 
-pyramid(100);
+pyramid(50);
