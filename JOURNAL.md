@@ -362,11 +362,21 @@ Where:
 
 [usphone.js](exercises/usphone.js)
 
-## Fri 29 Mar 2019
+## Sat 30 Mar 2019
 
 - Began work on [JavaScript Algorithms and Data Structures Projects: Cash Register](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/cash-register/) on freeCodeCamp.
 - Began by flattening a `cid` array containing the dollar value of various cash denomination quantities and reducing it to a total dollar number `reg`.
 - Defined `change` as `price` minus `cash`. Then established conditions based on whether change is more, equal or less than `reg`.
+
+### Exercises
+
+[cashregister.js](exercises/cashregister.js)
+
+## Mon 01 Apr 2019
+
+- Still working on [JavaScript Algorithms and Data Structures Projects: Cash Register](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/cash-register/) on freeCodeCamp.
+- Accounted for first two scenarios, `CLOSED` and `INSUFFICIENT_FUNDS` by simply comparing the `change` variable to `reg` for less than or equal to, respectively.
+- Tried reversing the `cid` array in order to subtract denominations starting from highest to lowest.
 
 ### Exercises
 
