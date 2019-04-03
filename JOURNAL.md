@@ -381,3 +381,12 @@ Where:
 ### Exercises
 
 [cashregister.js](exercises/cashregister.js)
+
+## Wed 03 Apr 2019
+
+- Completed [JavaScript Algorithms and Data Structures Projects: Cash Register](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/cash-register/) on freeCodeCamp.
+- Finished the [JavaScript Algorithms and Data Structures Projects](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects) section on freeCodeCamp.
+
+### Exercises
+
+[cashregister.js](exercises/cashregister.js)
