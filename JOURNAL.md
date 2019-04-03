@@ -386,6 +386,11 @@ Where:
 
 - Completed [JavaScript Algorithms and Data Structures Projects: Cash Register](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/cash-register/) on freeCodeCamp.
 - Finished the [JavaScript Algorithms and Data Structures Projects](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects) section on freeCodeCamp.
+- For last scenario, created an array `denom` of denomination `name:val` (_val_ as in _value_) pairs from highest to lowest, and an array `register` of denominations in `cid` in the same format as `denom`.
+- Looping through each denomination `billcoin` in `denom`, we subtract each `billcoin` value from `change` and `register` as long (`while`) as any such denomination remains in `register` and change is more or equal to zero.
+- To a variable `value` resetted each loop, we add the total of the `billcoin` used at the nested `while` loop. If a `billcoin` was used, we `push()` its name along with `value` as a subarray to the `change` object array.
+- If we did not `push()` any subarrays into `change`, that means that we cannot give exact change, and thus we account for the last remaining scenario as we return `INSUFFICIENT_FUNDS` and the empty `change` array.
+- If we did modify `change`, we simply return its parent `output` in the end.
 
 ### Exercises
 
