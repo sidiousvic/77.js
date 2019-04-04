@@ -395,3 +395,13 @@ Where:
 ### Exercises
 
 [cashregister.js](exercises/cashregister.js)
+
+## Wed 03 Apr 2019
+
+- Began to refactor the **Intermediate Algorithm Scripting** challenges on freeCodeCamp, RRC
+- Refactored and commented [Intermediate Algorithm Scripting: Sum All Numbers in a Range(https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/sum-all-numbers-in-a-range) on freeCodeCamp.
+- We `sort()` both array elements from low to high, then push all consecutive numbers to a `result` array starting from the first element until the last using a `for` loop. Finally, we return the sum of all numbers in `result` using `reduce()`.
+
+### Exercises
+
+[sumall.js](exercises/sumall.js)
