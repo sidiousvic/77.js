@@ -1,4 +1,4 @@
-function isPalindrome(str) {
+const isPalindrome = str => {
   let regex = /[A-Za-z0-9]/g;
   return (
     str
@@ -11,7 +11,7 @@ function isPalindrome(str) {
       .join("")
       .toLowerCase()
   );
-}
+};
 
 console.log(palindrome("Mr. Owl ate my metal worm!")); //true
 console.log(palindrome("Mr. Owl ate my metal worm again!")); //false

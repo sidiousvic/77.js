@@ -385,7 +385,6 @@ Where:
 ## Wed 03 Apr 2019
 
 - Completed [JavaScript Algorithms and Data Structures Projects: Cash Register](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/cash-register/) on freeCodeCamp.
-- Finished the [JavaScript Algorithms and Data Structures Projects](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects) section on freeCodeCamp.
 - For last scenario, created an array `denom` of denomination `name:val` (_val_ as in _value_) pairs from highest to lowest, and an array `register` of denominations in `cid` in the same format as `denom`.
 - Looping through each denomination `billcoin` in `denom`, we subtract each `billcoin` value from `change` and `register` as long (`while`) as any such denomination remains in `register` and change is more or equal to zero.
 - To a variable `value` resetted each loop, we add the total of the `billcoin` used at the nested `while` loop. If a `billcoin` was used, we `push()` its name along with `value` as a subarray to the `change` object array.
@@ -396,12 +395,33 @@ Where:
 
 [cashregister.js](exercises/cashregister.js)
 
-## Wed 03 Apr 2019
+## Thu 04 Apr 2019
 
 - Began to refactor the **Intermediate Algorithm Scripting** challenges on freeCodeCamp, RRC
-- Refactored and commented [Intermediate Algorithm Scripting: Sum All Numbers in a Range(https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/sum-all-numbers-in-a-range) on freeCodeCamp.
+- Refactored and commented [Intermediate Algorithm Scripting: Sum All Numbers in a Range](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/sum-all-numbers-in-a-range) on freeCodeCamp.
 - We `sort()` both array elements from low to high, then push all consecutive numbers to a `result` array starting from the first element until the last using a `for` loop. Finally, we return the sum of all numbers in `result` using `reduce()`.
 
 ### Exercises
 
 [sumall.js](exercises/sumall.js)
+
+## Sat 06 Apr 2019
+
+- Completed [Intermediate Algorithm Scripting: Diff Two Arrays](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/diff-two-arrays) on freeCodeCamp.
+- Used `[].concat(arguments)` to create a new array combining the elements of all arguments.
+- Used `includes()` as a condition with `filter()` to weed out the elements present in both arrays, returning only the unique ones.
+- Completed [Intermediate Algorithm Scripting: Seek and Destroy](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/seek-and-destroy) on freeCodeCamp.
+- Merged the arguments into a single new array `xargs` using `[].concat(arguments)` and sliced off the array argument to leave only the extra arguments, our tests.
+- Using `filter()`, we return the elements that don't match our test arguments.
+- Completed [Intermediate Algorithm Scripting: Wherefore art thou](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/wherefore-art-thou) on freeCodeCamp.
+- Made an array `sourcekeys` from the `source` argument objects' keys using `Object.keys()`.
+- Using `map()`, tested whether each key in `sourcekeys` exists in a particular object from `collection`, and if their value pairs are the same.
+- Using `reduce()`, aggregated all returned booleans into a single value.
+- Using `filter()`, we pass an element into our return array only if the above tests reduced to true.
+- Updated all functions in [study.js/exercises] to ES6 arrow function syntax.
+
+### Exercises
+
+[difftwo.js](exercises/difftwo.js)
+
+[destroyer.js](exercices/destroyer.js)

@@ -1,4 +1,4 @@
-function debinaryzer(str) {
+const debinaryzer = str => {
   let binstr = str.split(" ");
   let result = [];
   for (let char in binstr) {
@@ -6,7 +6,7 @@ function debinaryzer(str) {
   }
 
   return result.join("");
-}
+};
 
 console.log(
   debinaryzer(

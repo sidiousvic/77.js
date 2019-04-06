@@ -4,13 +4,13 @@ const faces = {
   angry: ["▼皿▼#", "ｏ`皿′ｏ", "＃ﾟДﾟ"]
 };
 
-function makeSmileys(arr) {
+const makeSmileys = arr => {
   const resultSmileys = arr.map(x => {
     return `(${x})`; //this uses a tempate literal
   });
 
   return resultSmileys;
-}
+};
 
 const happySmileys = makeSmileys(faces.happy);
 const sadSmileys = makeSmileys(faces.sad);

@@ -1,4 +1,4 @@
-function binaryzer(str) {
+const binaryzer = str => {
   let splitstr = str.split("");
   let result = [];
   for (let char in str) {
@@ -6,6 +6,6 @@ function binaryzer(str) {
   }
 
   return result.join(" ");
-}
+};
 
 console.log(binaryzer("Vic is sick."));

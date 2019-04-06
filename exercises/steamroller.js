@@ -1,4 +1,4 @@
-function steamroller(arr) {
+const steamroller = arr => {
   let result = [];
 
   let steamroll = elem => {
@@ -22,7 +22,7 @@ function steamroller(arr) {
   each(arr, steamroll);
 
   return result;
-}
+};
 
 console.log(steamroller([1, [2], [3, [[4]]]]));
 console.log(steamroller([[["a"]], [["b"]]]));

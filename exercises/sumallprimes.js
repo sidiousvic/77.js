@@ -1,4 +1,4 @@
-function sumPrimes(num) {
+const sumPrimes = num => {
   let result = [];
   for (let x = 2; x <= num; x++) {
     result.push(x);
@@ -11,7 +11,7 @@ function sumPrimes(num) {
       return true;
     })
     .reduce((a, b) => a + b);
-}
+};
 
 console.log(sumPrimes(10));
 

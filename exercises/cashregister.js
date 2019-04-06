@@ -1,4 +1,4 @@
-function checkCashRegister(price, cash, cid) {
+const checkCashRegister = (price, cash, cid) => {
   // make an object of denominations and their values, from high to low
   let denoms = [
     { name: "ONE HUNDRED", val: 100 },
@@ -86,7 +86,7 @@ function checkCashRegister(price, cash, cid) {
     output.change = [];
   }
   return output;
-}
+};
 
 // tests
 

@@ -1,4 +1,4 @@
-function convertToRoman(num) {
+const convertToRoman = num => {
   let nums = Array.from(num.toString());
   let dex = nums.reverse();
   let mul = 1;
@@ -44,6 +44,6 @@ function convertToRoman(num) {
   };
 
   return dexed.map(x => romans[x] || x).join("");
-}
+};
 
 console.log(convertToRoman(9));

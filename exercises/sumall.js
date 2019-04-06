@@ -1,4 +1,4 @@
-function sumAll(arr) {
+const sumAll = arr => {
   // sort array from low to high
   arr.sort((a, b) => a - b);
   console.log(arr);
@@ -11,6 +11,6 @@ function sumAll(arr) {
   console.log(result);
   // reduce/sum all numbers in result
   return result.reduce((a, b) => a + b);
-}
+};
 
 console.log(sumAll([5, 10]));

@@ -1,5 +1,5 @@
-function greet(who) {
+const greet = who => {
   console.log("Hello " + who);
-}
+};
 greet("Harry");
 console.log("Bye");

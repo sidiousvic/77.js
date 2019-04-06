@@ -1,4 +1,4 @@
-function sumFibs(num) {
+const sumFibs = num => {
   let result = [1, 1];
   // make array with fibonacci sequence integers < num
   while (result[0] + result[1] <= num) {
@@ -6,7 +6,7 @@ function sumFibs(num) {
   }
   // return the sum of all odd integers in array
   return result.filter(x => x % 2 != 0).reduce((a, b) => a + b);
-}
+};
 
 console.log(sumFibs(1000));
 
