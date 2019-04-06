@@ -413,7 +413,7 @@ Where:
 - Completed [Intermediate Algorithm Scripting: Seek and Destroy](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/seek-and-destroy) on freeCodeCamp.
 - Merged the arguments into a single new array `xargs` using `[].concat(arguments)` and sliced off the array argument to leave only the extra arguments, our tests.
 - Using `filter()`, we return the elements that don't match our test arguments.
-- Completed [Intermediate Algorithm Scripting: Wherefore art thou](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/wherefore-art-thou) on freeCodeCamp.
+- Completed [Intermediate Algorithm Scripting: Wherefore Art Thou?](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/wherefore-art-thou) on freeCodeCamp.
 - Made an array `sourcekeys` from the `source` argument objects' keys using `Object.keys()`.
 - Using `map()`, tested whether each key in `sourcekeys` exists in a particular object from `collection`, and if their value pairs are the same.
 - Using `reduce()`, aggregated all returned booleans into a single value.
@@ -425,3 +425,5 @@ Where:
 [difftwo.js](exercises/difftwo.js)
 
 [destroyer.js](exercices/destroyer.js)
+
+[whatsinaname.js](exercises/whatsinaname.js)
