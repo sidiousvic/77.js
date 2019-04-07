@@ -427,3 +427,26 @@ Where:
 [destroyer.js](exercices/destroyer.js)
 
 [whatsinaname.js](exercises/whatsinaname.js)
+
+## Sat 06 Apr 2019
+
+- Completed [Intermediate Algorithm Scripting: Spinal Tap Case](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/spinal-tap-case) on freeCodeCamp.
+- Created a regex to identify underscores, spaces, and using a positive lookahead for capital letters, camelcase.
+- We then split at regex using `split(regex)`, join with hyphens using `join(-)`, and convert to lowercase using `toLowerCase()`.
+- Completed [Intermediate Algorithm Scripting: Pig Latin](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/pig-latin) on freeCodeCamp.
+- Built regex `vowels` to match all vowels in a string, and `vowel` to match the first letter in a string only if it is a vowel.
+- `split()` will delete the element at which we split, and so if `split(vowels)` matches the first element, it will return an array with an empty first element. Otherwise, it will return an array with a consonant or consonant cluster as the first element. Chaining this with `shift()`, we return such first element, finally adding `+ "ay"` to it and storing it in a variable `xay`.
+
+`glove` => `[gl, o, v, e]` => `gl` => `glay`
+
+- Using the same logic, we `replace()` the first consonant cluster `str.split(vowels)[0]` with nothing and store it in a variable `pig`.
+
+`glove` => `gl,o,v,e` => `ove`
+
+- Using an `if` statement and our regex `vowel`, we check whether the string begins with a vowel. If it does, we simply return the word as is, plus `"ay"`.
+- Otherwise, if the string does not begin with a vowel, we return `pig` plus `xay`.
+
+### Exercises
+
+[spinalcase.js](exercises/spinalcase.js)
+[piglatin.js](exercises/piglatin.js)
