@@ -459,6 +459,11 @@ Where:
 - Declared a test function `timesNine` that takes a number and multiplies it by nine.
 - Within a main `each` function, we iterate each element of the `collection` using `for(let ... in ...)` and equalize each of its elements to the result of passing that element through our `callback` function.
 - We log and return the modified collection.
+- Completed [Intermediate Algorithm Scripting: Search and Replace](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/search-and-replace) on freeCodeCamp.
+- First find the index at which `before` begins. Using that, we can check if the character at that index in `str` is uppercase or not.
+- We then store the first letter of `after` in a `capital` variable, capitalized, and store `after` without the first letter in a `rest` variable.
+- We assign `capital` + `rest` to `after`.
+- In the end, using `replace()` we substitute `before` with `after` in `str`.
 
 ### Exercises
 
