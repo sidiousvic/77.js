@@ -454,8 +454,7 @@ Where:
 
 ## Mon 08 Apr 2019
 
-- Reloaded the exercise [each.js](exercises/each.js)
-- The objective is to create a function that takes a `collection` parameter (array or object) and executes a second `callback` parameter on all its elements.
+- Revisited the exercise [each.js](exercises/each.js). The objective is to create a function that takes a `collection` parameter (array or object) and executes a second `callback` parameter on all its elements.
 - Declared a test function `timesNine` that takes a number and multiplies it by nine.
 - Within a main `each` function, we iterate each element of the `collection` using `for(let ... in ...)` and equalize each of its elements to the result of passing that element through our `callback` function.
 - We log and return the modified collection.
