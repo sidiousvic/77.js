@@ -449,6 +449,7 @@ Where:
 ### Exercises
 
 [spinalcase.js](exercises/spinalcase.js)
+
 [piglatin.js](exercises/piglatin.js)
 
 ## Mon 08 Apr 2019
