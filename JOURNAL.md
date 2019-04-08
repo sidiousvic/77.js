@@ -467,3 +467,4 @@ Where:
 ### Exercises
 
 [each.js](exercises/each.js)
+[searchandreplace.js](exercises/searchandreplace.js)
