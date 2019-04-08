@@ -428,7 +428,7 @@ Where:
 
 [whatsinaname.js](exercises/whatsinaname.js)
 
-## Sat 06 Apr 2019
+## Sun 07 Apr 2019
 
 - Completed [Intermediate Algorithm Scripting: Spinal Tap Case](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/spinal-tap-case) on freeCodeCamp.
 - Created a regex to identify underscores, spaces, and using a positive lookahead for capital letters, camelcase.
@@ -450,3 +450,15 @@ Where:
 
 [spinalcase.js](exercises/spinalcase.js)
 [piglatin.js](exercises/piglatin.js)
+
+## Mon 08 Apr 2019
+
+- Reloaded the exercise [each.js](exercises/each.js)
+- The objective is to create a function that takes a `collection` parameter (array or object) and executes a second `callback` parameter on all its elements.
+- Declared a test function `timesNine` that takes a number and multiplies it by nine.
+- Within a main `each` function, we iterate each element of the `collection` using `for(let ... in ...)` and equalize each of its elements to the result of passing that element through our `callback` function.
+- We log and return the modified collection.
+
+### Exercises
+
+[each.js](exercises/each.js)

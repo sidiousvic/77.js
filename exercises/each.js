@@ -1,13 +1,26 @@
-const each = (arr, callback) => {
-  let result = [];
-  for (let key in arr) {
-    result.push(callback(arr[key]));
+// assign a test function to a variable
+const timesNine = num => {
+  return num * 9;
+};
+
+const each = (collection, callback) => {
+  // iterate each element in array, or key in object
+  for (let elem in collection) {
+    // morph each element's value by executing the callback function on it
+    collection[elem] = callback(collection[elem]);
   }
-  return result;
+  // log and return the modified collection
+  console.log(collection);
+  return collection;
 };
 
-const timesTwo = num => {
-  return num * 2;
-};
+each([7, 8, 9], timesNine);
 
-console.log(each([1, 2, 3, 4, 5], timesTwo));
+each(
+  {
+    one: 7,
+    two: 8,
+    three: 9
+  },
+  timesNine
+);
