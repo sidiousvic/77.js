@@ -467,4 +467,32 @@ Where:
 ### Exercises
 
 [each.js](exercises/each.js)
+
 [searchandreplace.js](exercises/searchandreplace.js)
+
+## Tue 09 Apr 2019
+
+- Had my third interview with [Code Chrysalis](https://www.codechrysalis.io/). As expected, the challenge the interviewer gave me was different from what I had done before. I failed.
+- The task was to swap an object's `key: value` pairs.
+- Got stuck while assuming that logging an object's keys with a for loop would return indexes (such as 0, 1, 2...) instead of the keys themselves. Stupidly, did not simply log them to check.
+- Will study objects thoroughly to prepare for the follwing check-in next week.
+
+## Wed 10 Apr 2019
+
+- Built a `swap` function that takes an object as an argument and returns an object with its `key: value` pairs swapped.
+- Inside the function, declared a variable `result` and assinged to it an empty object.
+- Using a for loop, we iterate through each key of the object argument.
+- We then assign each iterated element to a variable `key` and the object's element to a variable `value`.
+- We fill `result` initializing the pairs swapped.
+
+```js
+for (let elem in object) {
+  let key = elem;
+  let value = object[elem];
+  result[value] = key;
+}
+```
+
+### Exercises
+
+[swap.js](exercises/swap.js)
