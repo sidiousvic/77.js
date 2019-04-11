@@ -474,7 +474,7 @@ Where:
 
 - Had my third interview with [Code Chrysalis](https://www.codechrysalis.io/). As expected, the challenge the interviewer gave me was different from what I had done before. I failed.
 - The task was to swap an object's `key: value` pairs.
-- Got stuck while assuming that logging an object's keys with a for loop would return indexes (such as 0, 1, 2...) instead of the keys themselves. Stupidly, did not simply log them to check.
+- Got stuck while assuming that logging an object's keys with a for loop would return indexes (0, 1, 2, 3) instead of the keys ('a', 'b', 'c', 'd') themselves. Sadly, did not simply log them to check.
 - Will study objects thoroughly to prepare for the follwing check-in next week.
 
 ## Wed 10 Apr 2019
