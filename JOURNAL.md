@@ -496,3 +496,26 @@ for (let elem in object) {
 ### Exercises
 
 [swap.js](exercises/swap.js)
+
+## Fri 10 Apr 2019
+
+- Built a function `pigIt()` that takes a sentence string and replaces each word with its Pig Latin equivalent. The function ignores punctuation.
+- Learned how to use a `replace()` method with a regex split into capturing groups.
+
+```js
+/(\w)(\w*)(\s|$)/g;
+```
+
+- The capturing groups are enclosed by parentheses `()` and can be referred to at the replacement parameter, in order of appearance starting with `$1`.
+
+  > - `(\w)` a word character (first letter of a word) is `$1`
+  > - `(\w*)` a word characte, greedy (rest of the letters in a word), is `$2`
+  > - `(\s|$)` a space or the end of a line, is `$3`
+
+- The format of Pig Latin we are looking for is `(word without first letter)` + `(first letter)` + `"ay"` + `(any punctuation)`.
+- Thus our replacement will be `$2` + `$1` + `"ay"` + `$3`, or `"$2$1ay$3"`.
+- The punctuation (?!.:;) remains in its place unmodified.
+
+### Exercises
+
+[pigit.js](exercises/pigit.js)
