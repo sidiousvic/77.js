@@ -500,7 +500,7 @@ for (let elem in object) {
 ## Fri 10 Apr 2019
 
 - Built a function `pigIt()` that takes a sentence string and replaces each word with its Pig Latin equivalent. The function ignores punctuation.
-- Learned how to use a `replace()` method with a regex split into capturing groups.
+- Learned how to use a `replace()` method with a regex split into [capturing groups](https://javascript.info/regexp-groups).
 
 ```js
 /(\w)(\w*)(\s|$)/g;
