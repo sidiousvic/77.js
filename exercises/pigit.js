@@ -9,3 +9,4 @@ function pigIt(str) {
 }
 
 console.log(pigIt("Pig latin is cool"));
+// igPay atinlay siay oolcay
