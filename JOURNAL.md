@@ -497,8 +497,9 @@ for (let elem in object) {
 
 [swap.js](exercises/swap.js)
 
-## Fri 10 Apr 2019
+## Fri 12 Apr 2019
 
+- Passed the [Simple Pig Latin](https://www.codewars.com/kata/simple-pig-latin/train/javascript) kata on [CodeWars](https://www.codewars.com/).
 - Built a function `pigIt()` that takes a sentence string and replaces each word with its Pig Latin equivalent. The function ignores punctuation.
 - Learned how to use a `replace()` method with a regex split into [capturing groups](https://javascript.info/regexp-groups).
 
@@ -519,3 +520,18 @@ for (let elem in object) {
 ### Exercises
 
 [pigit.js](exercises/pigit.js)
+
+## Sat 13 Apr 2019
+
+- Passed the [Mexican Wave](https://www.codewars.com/kata/mexican-wave/train/javascript) kata on [CodeWars](https://www.codewars.com/).
+- Built a function that emulates a stadium wave over a string, returning an array of versions of the string with each non-space character uppercased.
+- We loop over every character in array, including spaces.
+- Every loop, we create an `arr` variable holding an array of each character by using `split('')`.
+- At same loop, using `splice()` we replace the current character in `arr` with its own uppercase version.
+- We `push()` the modified `arr` after stitching it back together using `join()` to an empty `result` array residing outside the loop.
+- Every loop a new `arr` is created. This is key because each `arr` will only exist for the duration of its loop, allowing us to `splice()` and `push()` a different version each time.
+- On our `wave()` function scope, we return `result` after filtering out all-lowercase versions of `arr`, generated when we modified an empty space character.
+
+### Exercises
+
+[wave.js](exercises/wave.js)
