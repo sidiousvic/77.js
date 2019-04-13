@@ -15,6 +15,7 @@ const each = (collection, callback) => {
 };
 
 each([7, 8, 9], timesNine);
+// [ 63, 72, 81 ]
 
 each(
   {
@@ -24,3 +25,4 @@ each(
   },
   timesNine
 );
+// { one: 63, two: 72, three: 81 }
