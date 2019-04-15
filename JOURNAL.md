@@ -535,3 +535,12 @@ for (let elem in object) {
 ### Exercises
 
 [wave.js](exercises/wave.js)
+
+## Mon 15 Apr 2019
+
+- Practiced with iterations of the `swap()` and `each()` exercises on a simple object.
+- The objective is to swap the value pairs of an object, then apply an arithmetic function to each of its elements.
+
+### Exercises
+
+[nines.js](exercises/nines.js)
