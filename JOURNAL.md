@@ -544,3 +544,20 @@ for (let elem in object) {
 ### Exercises
 
 [nines.js](exercises/nines.js)
+
+## Tue 16 Apr 2019
+
+- Practiced further iterations of the `swap()` and `each()` exercises on a simple object.
+- Learned how to do the whole thing without side-effects, that is, each function returns a new version of its passed object without modifying the original.
+
+### Exercises
+
+[sevens.js](exercises/sevens.js)
+
+## Wed 17 Apr 2019
+
+- Passed the [Code Chrysalis](https://www.codechrysalis.io/) interview.
+
+## Fri 19 Apr 2019
+
+- Attempted the [Number of trailing zeros of N!](https://www.codewars.com/kata/52f787eb172a8b4ae1000a34/train/javascript) challenge on CodeWars.
