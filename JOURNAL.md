@@ -565,7 +565,35 @@ for (let elem in object) {
 - To do that, we can simply loop and divide `n` by five, truncate it down to a whole number, and add that to a result variable until n is _falsey_, or `0`.
 - We must account incrementing extra zeroes for 25 (1 extra zero), 125 (2 extra zeros), and so on.
 - Since 5 divided by five returns one, and one is _truey_, we account for that extra zero at the very final loop each time by adding one to result.
+- Passed the [Validate Credit Card Number](https://www.codewars.com/kata/validate-credit-card-number/train/javascript) challenge on CodeWars.
+- First, turned the number into a `ccn` array using `toString()`, `split()`, and `map()` with `parseInt()`.
+- Then, made a series of conditional statements regarding `ccn`'s length. If even, multiply every number at even indexes, if not, do so at uneven indexes.
+
+```js
+for (let num in ccn) {
+    // if array length is even, multiply number at even indexes
+    if (ccn.length % 2 === 0) {
+      if (num % 2 === 0) ccn[num] = ccn[num] * 2;
+      // if array is not even, multiply number at odd indexes
+    } else {
+      if (num % 2 !== 0) ccn[num] = ccn[num] * 2;
+    }
+```
+
+- Right after, check if the multiplied number is more than 9. If it is, subtract 9. (Which is the same as the sum of both digits in such number, e.g. `10 => 1 + 0 = 1` = `10 - 9 = 1`)
+
+```js
+if (ccn[num] > 9) ccn[num] -= 9;
+result.push(ccn[num]);
+```
+
+- Finally return whether the sum of the modified `ccn` array, when divided by 10, equals 0.
+
+```js
+return result.reduce((a, b) => a + b, 0) % 10 === 0;
+```
 
 ### Exercises
 
 [zeros.js](exercises/zeros.js)
+[validate.js](exercises/validate.js)
