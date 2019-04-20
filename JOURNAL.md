@@ -565,6 +565,13 @@ for (let elem in object) {
 - To do that, we can simply loop and divide `n` by five, truncate it down to a whole number, and add that to a result variable until n is _falsey_, or `0`.
 - We must account incrementing extra zeroes for 25 (1 extra zero), 125 (2 extra zeros), and so on.
 - Since 5 divided by five returns one, and one is _truey_, we account for that extra zero at the very final loop each time by adding one to result.
+
+### Exercises
+
+[zeros.js](exercises/zeros.js)
+
+## Sat 20 Apr 2019
+
 - Passed the [Validate Credit Card Number](https://www.codewars.com/kata/validate-credit-card-number/train/javascript) challenge on CodeWars.
 - First, turned the number into a `ccn` array using `toString()`, `split()`, and `map()` with `parseInt()`.
 - Then, made a series of conditional statements regarding `ccn`'s length. If even, multiply every number at even indexes, if not, do so at uneven indexes.
@@ -595,5 +602,4 @@ return result.reduce((a, b) => a + b, 0) % 10 === 0;
 
 ### Exercises
 
-[zeros.js](exercises/zeros.js)
 [validate.js](exercises/validate.js)
