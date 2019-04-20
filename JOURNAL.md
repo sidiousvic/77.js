@@ -560,4 +560,12 @@ for (let elem in object) {
 
 ## Fri 19 Apr 2019
 
-- Attempted the [Number of trailing zeros of N!](https://www.codewars.com/kata/52f787eb172a8b4ae1000a34/train/javascript) challenge on CodeWars.
+- Attempted the [Number of trailing zeros of N!](https://www.codewars.com/kata/52f787eb172a8b4ae1000a34/train/javascript) challenge on CodeWars. After solving it in a convoluted way, learned a better and simpler method.
+- We must find how many fives are in the factorial of `n`.
+- To do that, we can simply loop and divide `n` by five, truncate it down to a whole number, and add that to a result variable until n is _falsey_, or `0`.
+- We must account incrementing extra zeroes for 25 (1 extra zero), 125 (2 extra zeros), and so on.
+- Since 5 divided by five returns one, and one is _truey_, we account for that extra zero at the very final loop each time by adding one to result.
+
+### Exercises
+
+[zeros.js](exercises/zeros.js)
