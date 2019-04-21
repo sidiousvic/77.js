@@ -603,3 +603,28 @@ return result.reduce((a, b) => a + b, 0) % 10 === 0;
 ### Exercises
 
 [validate.js](exercises/validate.js)
+
+## Sun 21 Apr 2019
+
+- Passed the [A Rule of Divisibility by 13](https://www.codewars.com/kata/a-rule-of-divisibility-by-13/train/javascript) challenge on CodeWars.
+- Learned how to loop recursively through an array/object, by dividing the iterator over the array's length and using the remainder as the current index:
+
+```js
+let nines = [9, 9, 9, 9, 9, 9, 9];
+let elevens = [11, 111, 1111];
+for (let x in nines) {
+  console.log(nines[x] * elevens[x % elevens.length]);
+}
+
+// 99
+// 999
+// 9999
+// 99
+// 999
+// 9999
+// 99
+```
+
+### Exercises
+
+[thirt.js](exercises/thirt.js)
