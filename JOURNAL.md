@@ -628,3 +628,14 @@ for (let x in nines) {
 ### Exercises
 
 [thirt.js](exercises/thirt.js)
+
+## Mon 22 Apr 2019
+
+- Passed the [Maximum Subarray Sum](https://www.codewars.com/kata/54521e9ec8e60bc4de000d6c/train/javascript) challenge on CodeWars by implementing [this version of Kadane's Algorithm](https://stackoverflow.com/questions/32367032/kadanes-algorithm-explained).
+- We create two variables, `sum` and `max`.
+- `sum` is the result of adding `sum` to the current value every time, using `Math.max()` to set a lower limit of 0. This effectively gives us the maximum sum in the subsequence **so far**, because sum can only increment itself or become zero.
+- We store `sum` in `max` if it is higher than `max`. This lets us record our highest ever sum.
+
+### Exercises
+
+[maxsequence.js](exercises/maxsequence.js)
