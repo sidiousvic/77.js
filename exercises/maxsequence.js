@@ -11,3 +11,4 @@ const maxSequence = arr => {
 };
 
 console.log(maxSequence([-2, 1, -3, 4, -1, 2, 1, -5, 4])); // 6
+console.log(maxSequence([-2, 3, 4, -2])); // 7
