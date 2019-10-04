@@ -1,6 +1,6 @@
 # study.js
 
-Record of my daily JavaScript study and exercises.
+90 days of Javascript study and exercises.
 
 - [May 2019](JOURNAL/05月19.md)
 
